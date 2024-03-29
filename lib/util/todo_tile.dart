@@ -26,9 +26,8 @@ class TodoTile extends StatelessWidget {
           motion: const StretchMotion(),
           children: [
             SlidableAction(
-              borderRadius: const BorderRadius.only(
-                topRight: Radius.circular(12),
-                bottomRight: Radius.circular(12),
+              borderRadius: const BorderRadius.all(
+                Radius.circular(12),
               ),
               onPressed: deleteFunction,
               icon: Icons.delete,

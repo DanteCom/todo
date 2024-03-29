@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'To Do',
+            'ToDo',
             style: TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 25,
